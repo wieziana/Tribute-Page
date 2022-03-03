@@ -1,0 +1,20 @@
+body {
+  background-color:#10171f;
+  color: white;
+}
+
+#img-caption {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-div{
+  text-align: center;
+}
