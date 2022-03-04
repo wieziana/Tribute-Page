@@ -1,0 +1,93 @@
+<html>
+<header>
+<h1 id="title">Cash Trash Survey Form</h1>
+  </header
+  
+  <body>
+<p id="description">This survey is to take into cognizant the idea of customers exchanging their home generated waste for cash.</p>
+    
+<form id="survey-form">
+  
+  <div class="input-headings">
+  
+  <label for="name" id="name-label"> Name </label>
+    <input id="name" type="text" placeholder="Full Name E.g, John Doe" name="name" class="input-field" required></input><br>
+ 
+<br><label for="email" id="email-label"> Email </label>
+   <input id="email" type="email" placeholder="Email: yourname@abc.com" name="email" class="input-field" required> </input><br>
+
+<br><label for="number" id="number-label"> Phone Number </label>
+<input id="number" type="number" placeholder="+234(0)812345678" min="01000000000" max="00999999999999999" class="input-field" required name="number"> </input><br>
+
+  <br><label for="dropdown" id="trash-type"><b>What type of trash do you generate at home?</b> </label>
+<select id="dropdown" name="dropdown" class="input-field" required>
+  <option value="#" selected> Choose Option </option>
+  <option value="garden_waste"> Garden Waste </option>
+  <option value="glass_waste"> Glass & Bottles </option>
+  <option value="plastic_waste"> Plastic </option>
+  <option value="fabric_waste"> Used Clothes </option>
+  <option value="metal_waste"> Metals </option>
+  <option value="electronic_waste"> Electronic Waste </option>
+</select> <br>
+
+<br><label for="sort-trash" id="sorting"><b> To exchange your trash for cash, are you willing to sort-out your waste? </b></label><br>
+
+<label for="sort-trash">
+  <input id="sort-trash" type="radio" name="sort-trash" value="yes"> Yes
+</label><br>
+
+<label for="sort-trash">
+  <input id="sort-trash" type="radio" name="sort-trash" value="no"> No
+</label><br>
+
+<label for="sort-trash">
+ <input id="sort-trash" type="radio" name="sort-trash" value="maybe"> Maybe
+</label><br>
+
+<br><label for="trash-bag" id="label-trash-bag"><b> Do you require assistance in helping you sort-out your trash? eg. labelled trash bags </b></label><br>
+
+<label for="trash-bag">
+  <input id="trash-bag" type="radio" name="trash-bag" value="yes"> Yes </label><br>
+
+<label for="trash-bag">
+  <input id="trash-bag" type="radio" name="trash-bag" value="no"> No </label><br>
+
+<label for="tras-bag">
+  <input id="trash-bag" type="radio" name="trash-bag" value="maybe"> Maybe </labe><br>
+
+<br><label for="collection-date" id="date"><b> What day of the week will you be chanced to exchange your trash for cash? </b></label><br>
+
+<label for="collection-date">
+  <input id="collection-date" type="checkbox" name="collection-date" value="monday"> Monday </label></br>
+
+<label for="collection-date">
+  <input id="collection-date" type="checkbox" name="collection-date" value="tuesday"> Tuesday </label></br>
+
+<label for="collection-date">
+  <input id="collection-date" type="checkbox" name="collection-date" value="wednesday"> Wednesday </label></br>
+
+<label for="collection-date">
+  <input id="collection-date" type="checkbox" name="collection-date" value="thursday"> Thursday </label></br>
+
+<label for="collection-date">
+  <input id="collection-date" type="checkbox" name="collection-date" value="friday"> Friday </label></br>
+
+<label for="collection-date">
+  <input id="collection-date" type="checkbox" name="collection-date" value="saturday"> Saturday </label></br>
+
+<label for="collection-date">
+  <input id="collection-date" type="checkbox" name="collection-date" value="sunday"> Sunday </label></br>
+
+<br><label for="comments" id="notes"> <b> Any comments or suggestions?</b>
+  <br><textarea id="comments" name="comments" rows="10" cols="50"></textarea>
+    
+  </label><br>
+  <input id="submit" type="submit" value="Submit" class="submit-button">
+  
+  </div>
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+  font-family: 'Ubuntu';
+  line-height: 1.5;
+  background-color:#0F1A20;
+  color: white;
+  width: 500px;
+  margin: auto;
+  
+}
+
+form {
+  background: #E2856E;
+  opacity: 0.8;
+  border-radius: 2rem;
+  padding: 40px 25px;
+  width: 500px;
+  margin: auto;
+}
+
+.submit-button {
+  width: 25%;
+  padding: 1rem;
+  background: #0F1A20;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: #0F1A20;
+}
+
+.input-headings {
+  margin: 2rem auto 2rem 2rem;
+  padding: 0;
+  
+}
+
+.input-field {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  border-radius: 2%;
+  padding: 2px 5px;
+  background-color: white;
+  border: 1px solid;
+  
+}
+
+#title {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
